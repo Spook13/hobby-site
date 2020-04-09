@@ -1,0 +1,167 @@
+/* Basics */
+body{
+    margin: 0;
+    padding: 0;
+}
+.white-bg{
+    background-color: #FCF9F7;
+}
+.light-pink-bg{
+    background-color: #FAEAF1;
+}
+.pink-bg{
+    background-color: #DF6899;
+}
+.blue-bg{
+    background-color: #223059;
+}
+.white-text{
+    color: #FCF9F7;
+}
+.light-pink-text{
+    color: #FAEAF1;
+}
+.pink-text{
+    color: #DF6899;
+}
+.blue-text{
+    color: #223059;
+}
+
+/* Header */
+.nav-head{
+    display: block;
+    padding: 10px;
+}
+ /* Logo */
+ .logo{
+    height: 50px;
+    margin-left: 25%;
+    width: 100px;
+}
+
+/* --- Fontawesome Edits --- */
+.fa-bars{
+    font-size: 48px;
+}
+.fa-search{
+    float: right;
+    font-size: 48px;
+}
+.fa-caret-down {
+    text-align: right;
+    font-size: 32px;
+    padding-right: 8px;
+  }
+
+/* --- Overlay Side Navigation --- */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 60px;
+    transition: 0.5s;
+  }
+
+  /* The navigation menu links and the dropdown button */
+  .sidenav a, .dropdown-btn  {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+  }
+
+  /* More dropdown button style */
+  .dropdown-btn {
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #DF6899;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .dropdown-content {
+    display: none;
+    padding-left: 8px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  /* --- Home --- */
+.container{
+    margin: 20px;
+}
+.content-header{
+    border-bottom: #223059 solid 3px;
+    border-radius: 2px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    margin-bottom: 10px;
+}
+
+  /* --- Cards --- */
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 270px;
+    width: 150px;
+    transition: 0.3s;
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
+  }
+
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .card-img {
+    border-radius: 5px 5px 0 0;
+    height: 120px;
+    width: 150px;
+  }
+  
+  /* Add some padding inside the card container */
+  .card-text {
+    padding: 0px 16px;
+  }
+
+  /* patterns */
+  a:link {
+    text-decoration: none;
+  }
+
+  .pattern-img {
+    border-radius: 5px 5px 0 0;
+    height: 100vh;
+    width: 100vw;
+  }
